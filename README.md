@@ -233,6 +233,25 @@ Properties:
 
 Adjustments include modifying the container width, changing the layout of recipe items to a column, and adjusting the sizes of images, titles, descriptions, and links to ensure optimal display on smaller devices.
 
+# Javascript Code 
+
+This JavaScript code is responsible for fetching random recipes from the Spoonacular API, displaying them on the webpage, and initializing the application.
+
+~ Constants
+
+API_KEY: Stores the API key required for accessing the Spoonacular API.
+
+~ Variables
+
+recipeListEl: Holds a reference to the HTML element where the list of recipes will be displayed.
+
+~ Functions
+
+`displayRecipes(recipes)`
+
+Purpose: Renders recipes on the webpage by creating HTML elements dynamically for each recipe.
+
+Parameters:
 
 
 
