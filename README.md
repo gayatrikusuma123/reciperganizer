@@ -249,9 +249,53 @@ recipeListEl: Holds a reference to the HTML element where the list of recipes wi
 
 `displayRecipes(recipes)`
 
-Purpose: Renders recipes on the webpage by creating HTML elements dynamically for each recipe.
+~ Purpose: Renders recipes on the webpage by creating HTML elements dynamically for each recipe.
 
-Parameters:
+~ Parameters:
 
+`recipes`: An array containing recipe data fetched from the Spoonacular API.
 
+~ Steps:
+
+1. Clears any existing content in the recipe list element (`recipeListEl.innerHTML = ""`).
+
+2. Iterates through each recipe in the `recipes` array.
+
+3. Creates HTML elements for the recipe image, title, ingredients, and a link to view the full recipe.
+
+4. Appends the created elements to a list item (`<li>`) representing each recipe.
+
+5. Appends the recipe list item to the recipe list element.
+
+`getRecipes()`
+
+~ Purpose: Fetches random recipes from the Spoonacular API.
+
+~ Returns: A promise that resolves to an array of recipe objects.
+
+~ Steps:
+
+1. Constructs a URL with the API key and the desired number of random recipes.
+
+2. Sends a request to the Spoonacular API using the `fetch` function.
+
+3. Parses the JSON response received from the API.
+
+4. Extracts the array of recipes from the response data.
+
+`init()`
+
+~ Purpose: Initializes the webpage by fetching recipes and displaying them.
+
+~ Steps:
+
+Calls the `getRecipes()` function to fetch random recipes.
+
+Calls the `displayRecipes()` function to render the fetched recipes on the webpage.
+
+Initialization
+
+Calls the `init()` function to start the initialization process when the script is executed.
+
+This JavaScript code effectively utilizes asynchronous programming techniques to fetch data from an external API, dynamically create HTML elements, and render content on the webpage. It follows best practices by modularizing functionality into reusable functions and providing comments to explain the purpose and flow of the code. The application is structured to handle asynchronous operations efficiently using `async/await` and promises, ensuring a smooth user experience.
 
