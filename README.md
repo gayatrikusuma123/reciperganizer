@@ -229,7 +229,7 @@ Purpose: Adjusts the layout and styles for smaller screens using a media query.
 
 Properties:
 
-   @media screen and (max-width: 768px) { ... }: Targets screens with a maximum width of 768 pixels.
+   `@media screen and (max-width: 768px) { ... }`: Targets screens with a maximum width of 768 pixels.
 
 Adjustments include modifying the container width, changing the layout of recipe items to a column, and adjusting the sizes of images, titles, descriptions, and links to ensure optimal display on smaller devices.
 
