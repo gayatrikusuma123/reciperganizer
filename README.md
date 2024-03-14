@@ -75,16 +75,31 @@ This HTML code represents the structure of a simple web page for a Recipe Book A
 
 This CSS code provides styling for a Recipe Book App, defining various aspects such as layout, colors, typography, and responsiveness.
 
-Resetting Defaults (`body`)
+~ Resetting Defaults (`body`)
 
 Purpose: Resets default styles for the entire document body to ensure consistent rendering across different browsers and devices.
 
 Properties:
-        `margin: 0;`: Removes default margin to ensure elements are flush against the edges of the viewport.
         
-        `padding: 0;`: Removes default padding to eliminate any unwanted spacing within elements.
+   `margin: 0;`: Removes default margin to ensure elements are flush against the edges of the viewport.
         
-        `font-family: Arial, sans-serif;`: Specifies a fallback font stack with Arial as the primary font family and generic sans-serif as a backup.
+   `padding: 0;`: Removes default padding to eliminate any unwanted spacing within elements.
+        
+   `font-family: Arial, sans-serif;`: Specifies a fallback font stack with Arial as the primary font family and generic sans-serif as a backup.
+
+~ Header Styles (`header`)
+
+Purpose: Defines styles for the header section of the web page.
+
+Properties:
+
+   `background: #0c2461;`: Sets the background color to a dark blue shade (#0c2461).
+        
+   `color: #fff;`: Sets the text color to white for better contrast against the dark background.
+
+   `padding: 20px;`: Adds padding around the header content to create space between the text and the edges of the header.
+    
+   `text-align: center;`: Centers the text horizontally within the header.
 
 
 
