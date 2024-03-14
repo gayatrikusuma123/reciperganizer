@@ -1,107 +1,126 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+/* CSS Styles for Recipe Book App */
 
+/* Resetting default margin, padding, and font for the entire body */
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
 }
 
+/* Styling for the header */
 header {
-    background: #0c2461;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+  background: #0c2461; /* Dark blue background */
+  color: #fff; /* White text color */
+  padding: 20px; /* Padding around the header content */
+  text-align: center; /* Center-aligning the text */
 }
 
+/* Styling for the main heading */
 h1 {
-    margin: 0;
-    font-size: 36px;
+  margin: 0; /* Removing default margin */
+  font-size: 36px; /* Setting font size to 36 pixels */
 }
 
+/* Container for the main content */
 .container {
-    margin: 0 auto;
-    max-width: 1200px;
-    padding: 20px;
+  margin: 0 auto; /* Center-aligning the container */
+  max-width: 1200px; /* Setting maximum width for the container */
+  padding: 20px; /* Padding around the container content */
 }
 
+/* Styling for the recipe list */
 .recipe-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  list-style: none; /* Removing default list styles */
+  margin: 0; /* Removing default margin */
+  padding: 0; /* Removing default padding */
 }
 
+/* Styling for each recipe item */
 .recipe-item {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
-    overflow: hidden;
+  display: flex; /* Using flexbox for layout */
+  align-items: center; /* Aligning items vertically */
+  justify-content: space-between; /* Distributing space between items */
+  margin-bottom: 20px; /* Spacing between recipe items */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Adding box shadow for a card-like effect */
+  border-radius: 5px; /* Rounded corners for the recipe item */
+  overflow: hidden; /* Hiding overflow content */
 }
 
+/* Styling for recipe images */
 .recipe-item img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
+  width: 150px; /* Setting width for the image */
+  height: 150px; /* Setting height for the image */
+  object-fit: cover; /* Ensuring the image covers the entire container */
 }
 
+/* Styling for recipe titles */
 .recipe-item h2 {
-    margin: 0;
-    font-size: 20px;
-    padding: 10px;
-    min-width: 200px;
+  margin: 0; /* Removing default margin */
+  font-size: 20px; /* Setting font size for the title */
+  padding: 10px; /* Padding around the title */
+  min-width: 200px; /* Setting minimum width for the title */
 }
 
+/* Styling for recipe descriptions */
 .recipe-item p {
-    margin: 0;
-    padding: 10px;
-    color: #777;
+  margin: 0; /* Removing default margin */
+  padding: 10px; /* Padding around the description */
+  color: #777; /* Setting text color for the description */
 }
 
+/* Styling for recipe links */
 .recipe-item a {
-    background: #0c2461;
-    color: #fff;
-    min-width: 150px;
-    padding: 10px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 14px;
-    transition: background 0.3s ease;
+  background: #0c2461; /* Dark blue background for links */
+  color: #fff; /* White text color for links */
+  min-width: 150px; /* Setting minimum width for links */
+  padding: 10px; /* Padding around links */
+  text-decoration: none; /* Removing default underline */
+  text-transform: uppercase; /* Transforming text to uppercase */
+  font-size: 14px; /* Setting font size for links */
+  transition: background 0.3s ease; /* Adding transition effect for background */
 }
 
+/* Hover effect for recipe links */
 .recipe-item a:hover {
-    background: #1e3799;
+  background: #1e3799; /* Darker blue background on hover */
 }
 
+/* Media query for responsive design */
 @media screen and (max-width: 768px) {
-    .container {
-        max-width: 90%;
-    }
+  .container {
+    max-width: 90%; /* Adjusting maximum width for smaller screens */
+  }
 
-    .recipe-item {
-        flex-direction: column;
-    }
+  /* Adjusting layout for recipe items on smaller screens */
+  .recipe-item {
+    flex-direction: column; /* Changing to a column layout */
+  }
 
-    .recipe-item img {
-        width: 100%;
-        height: auto;
-        margin-bottom: 10px;
-    }
+  /* Adjusting image size on smaller screens */
+  .recipe-item img {
+    width: 100%; /* Filling entire width of container */
+    height: auto; /* Preserving aspect ratio */
+    margin-bottom: 10px; /* Spacing between images */
+  }
 
-    .recipe-item h2 {
-        font-size: 20px;
-        padding: 0;
-        margin-bottom: 10px;
-    }
+  /* Adjusting title size on smaller screens */
+  .recipe-item h2 {
+    font-size: 20px; /* Setting font size */
+    padding: 0; /* Removing padding */
+    margin-bottom: 10px; /* Spacing between titles */
+  }
 
-    .recipe-item p {
-        font-size: 14px;
-        margin-bottom: 10px;
-    }
+  /* Adjusting description size on smaller screens */
+  .recipe-item p {
+    font-size: 14px; /* Setting font size */
+    margin-bottom: 10px; /* Spacing between descriptions */
+  }
 
-    .recipe-item a {
-        width: 100%;
-        text-align: center;
-    }
+  /* Adjusting link size on smaller screens */
+  .recipe-item a {
+    width: 100%; /* Filling entire width */
+    text-align: center; /* Center-aligning text */
+  }
 }
+
