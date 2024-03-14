@@ -71,6 +71,21 @@ This HTML code represents the structure of a simple web page for a Recipe Book A
 
     External JavaScript (`<script src="script.js"></script>`): Links an external JavaScript file named "script.js" to provide dynamic functionality to the application. This is used to add interactivity and dynamic behavior to the webpage.
 
+# CSS Code
+
+This CSS code provides styling for a Recipe Book App, defining various aspects such as layout, colors, typography, and responsiveness.
+
+Resetting Defaults (`body`)
+
+Purpose: Resets default styles for the entire document body to ensure consistent rendering across different browsers and devices.
+
+Properties:
+        `margin: 0;`: Removes default margin to ensure elements are flush against the edges of the viewport.
+        
+        `padding: 0;`: Removes default padding to eliminate any unwanted spacing within elements.
+        
+        `font-family: Arial, sans-serif;`: Specifies a fallback font stack with Arial as the primary font family and generic sans-serif as a backup.
+
 
 
 
