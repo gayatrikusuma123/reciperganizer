@@ -53,21 +53,21 @@ This HTML code represents the structure of a simple web page for a Recipe Book A
       `name="viewport"` sets the viewport width to the device's width and initial zoom level to 1.  This meta tag ensures that the webpage is properly scaled and displayed on various devices, adapting to different screen sizes.
        
 
-    Title (`<title>`): Specifies the title of the document.
+    Title (`<title>`): Specifies the title of the document. This sets the title of the webpage, which is typically displayed in the browser's title bar or tab.
 
-    External CSS (`<link rel="stylesheet" href="styles.css" />`): Links an external CSS file named "styles.css" to style the HTML content.
+    External CSS (`<link rel="stylesheet" href="styles.css" />`): Links an external CSS file named "styles.css" to style the HTML content. This links an external stylesheet named "styles.css" to the HTML document. Stylesheets are used to define the visual appearance of the webpage.
 
 4. Body Section (`<body>`):
 
-    Contains the content of the document.
+    The body section contains the visible content of the webpage.
 
-    Header (`<header>`): Typically contains introductory content like a heading or logo.
+    Header (`<header>`): Typically contains introductory content like a heading or logo. 
 
-    Heading (`<h1>`): Displays the main heading of the application.
+    Heading (`<h1>`): Displays the main heading of the application. This is a level 1 heading, indicating the main title of the webpage. It reads "Recipe Book App".
 
-    Container (`<div class="container">`): Contains the main content of the application.
+    Container (`<div class="container">`): Contains the main content of the application.  A `<div>` element with the class "container". It's often used to group and style content within a specific section.
 
-    Unordered List (`<ul id="recipe-list" class="recipe-list">`): Displays the list of recipes.
+    Unordered List (`<ul id="recipe-list" class="recipe-list">`): Displays the list of recipes, this is an unordered list (a bulleted list) with the ID "recipe-list" and the class "recipe-list". It will be used to display a list of recipes.
 
     External JavaScript (`<script src="script.js"></script>`): Links an external JavaScript file named "script.js" to provide dynamic functionality to the application.
 
