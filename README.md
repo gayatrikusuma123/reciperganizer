@@ -69,7 +69,7 @@ This HTML code represents the structure of a simple web page for a Recipe Book A
 
     Unordered List (`<ul id="recipe-list" class="recipe-list">`): Displays the list of recipes, this is an unordered list (a bulleted list) with the ID "recipe-list" and the class "recipe-list". It will be used to display a list of recipes.
 
-    External JavaScript (`<script src="script.js"></script>`): Links an external JavaScript file named "script.js" to provide dynamic functionality to the application.
+    External JavaScript (`<script src="script.js"></script>`): Links an external JavaScript file named "script.js" to provide dynamic functionality to the application. This is used to add interactivity and dynamic behavior to the webpage.
 
 
 
