@@ -101,6 +101,138 @@ Properties:
     
    `text-align: center;`: Centers the text horizontally within the header.
 
+~ Main Heading Styles (`h1`)
+
+Purpose: Defines styles for the main heading of the application.
+
+Properties:
+
+   `margin: 0;`: Removes default margin to ensure the heading is flush against the header's edges.
+
+   `font-size: 36px;`: Sets the font size to 36 pixels for emphasis and readability.
+
+~ Container Styles (`container`)
+
+Purpose: Defines styles for the container that holds the main content of the application.
+
+Properties:
+
+   `margin: 0 auto;`: Centers the container horizontally using automatic left and right margins.
+
+   `max-width: 1200px;`: Sets the maximum width of the container to 1200 pixels to ensure content doesn't stretch too wide on larger screens.
+
+   `padding: 20px;`: Adds padding around the container content to create space between the content and the edges of the container.
+
+~ Recipe List Styles (`recipe-list`)
+
+Purpose: Defines styles for the list of recipes displayed within the application.
+
+Properties:
+
+   `list-style: none;`: Removes default list styles (bullet points) from the recipe list.
+
+   `margin: 0;`: Removes default margin to ensure the list items are flush against the edges of the container.
+
+   `padding: 0;`: Removes default padding to eliminate any unwanted spacing within the list.
+
+~ Recipe Item Styles (`recipe-item`)
+
+Purpose: Defines styles for each individual recipe item within the list.
+
+Properties:
+
+   `display: flex;`: Uses flexbox for layout, allowing for easy alignment and spacing of elements within each recipe item.
+
+   `align-items: center;`: Aligns items vertically within each recipe item.
+
+   `justify-content: space-between;`: Distributes space evenly between elements horizontally within each recipe item.
+
+   `margin-bottom: 20px;`: Adds spacing between recipe items to improve readability and visual separation.
+
+   `box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);`: Adds a subtle box shadow effect to give a card-like appearance to each recipe item.
+
+   `border-radius: 5px;`: Rounds the corners of each recipe item for a more polished look.
+
+   `overflow: hidden;`: Hides any overflow content within the recipe item to prevent unwanted visual clutter.
+
+~ Recipe Image Styles (`recipe-item img`)
+
+Purpose: Defines styles for images displayed within each recipe item.
+
+Properties:
+
+   `width: 150px;`: Sets the width of the image to 150 pixels.
+
+   `height: 150px;`: Sets the height of the image to 150 pixels.
+
+   `object-fit: cover;`: Ensures the image covers the entire container, maintaining its aspect ratio without stretching.
+
+~Recipe Title Styles (`recipe-item h2`)
+
+Purpose: Defines styles for the titles of each recipe.
+
+Properties:
+
+   `margin: 0;`: Removes default margin to ensure the title is flush against the edges of its container.
+
+   `font-size: 20px;`: Sets the font size of the title to 20 pixels.
+
+   `padding: 10px;`: Adds padding around the title to create space between the text and the edges of its container.
+
+   `min-width: 200px;`: Sets a minimum width for the title to ensure it remains readable and visually appealing.
+
+~ Recipe Description Styles (`recipe-item p`)
+
+Purpose: Defines styles for the descriptions of each recipe.
+
+Properties:
+
+   `margin: 0;`: Removes default margin to ensure the description is flush against the edges of its container.
+
+   `padding: 10px;`: Adds padding around the description to create space between the text and the edges of its container.
+
+   `color: #777;`: Sets the text color to a dark gray (#777) for better readability.
+
+~ Recipe Link Styles (`recipe-item a`)
+
+Purpose: Defines styles for the links associated with each recipe.
+
+Properties:
+
+   `background: #0c2461;`: Sets the background color of the links to a dark blue shade (#0c2461).
+
+   `color: #fff;`: Sets the text color of the links to white for better contrast against the background.
+
+   `min-width: 150px;`: Sets a minimum width for the links to ensure they remain clickable and visually distinct.
+
+   `padding: 10px;`: Adds padding around the links to create space between the text and the edges of the links.
+
+   `text-decoration: none;`: Removes the default underline decoration from the links.
+
+   `text-transform: uppercase;`: Transforms the text of the links to uppercase for consistency and emphasis.
+
+   `font-size: 14px;`: Sets the font size of the links to 14 pixels.
+
+   `transition: background 0.3s ease;`: Adds a smooth transition effect to the background color of the links for a better user experience.
+
+~ Hover Effect for Links (`recipe-item a:hover`)
+
+Purpose: Defines styles for the hover effect of the links associated with each recipe.
+
+Properties:
+
+   `background: #1e3799;`: Sets a darker shade of blue (#1e3799) as the background color when the links are hovered over, providing visual feedback to the user.
+
+~ Media Query for Responsive Design
+
+Purpose: Adjusts the layout and styles for smaller screens using a media query.
+
+Properties:
+
+   @media screen and (max-width: 768px) { ... }: Targets screens with a maximum width of 768 pixels.
+
+Adjustments include modifying the container width, changing the layout of recipe items to a column, and adjusting the sizes of images, titles, descriptions, and links to ensure optimal display on smaller devices.
+
 
 
 
